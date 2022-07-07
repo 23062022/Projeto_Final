@@ -1,11 +1,11 @@
 <?php
 
     class conexao{
-        static $host = '127.0.0.1';
-        static $user = 'root';
-        static $pass = 'vertrigo';//no meu pc acabei colocando senha, mas me deu uma baita dor de cabeça
-        static $database = 'db_projeto_final_3e';
-        static $port = '3307'; // tive que mudar a porta para que o xampp funcionasse
+        static $host = 'sql211.epizy.com';
+        static $user = 'epiz_32123399'; //aqui é root
+        static $pass = 'CwYDT0pGVqE3GCV'; //no meu pc a senha é vertrigo
+        static $database = 'epiz_32123399_projeto_final';
+        static $port = '3306'; // a porta é 3307 no meu xampp
         static $con;
 
         public static function getConnection(){
