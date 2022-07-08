@@ -3,7 +3,7 @@
     <h1>Lista de Categorias</h1>
     <hr>
     
-    <a href="<?= base_url() . "?=categoria&m=add" ?>" class="btn btn-success">Inserir categoria</a>
+    <a href="<?= base_url() . "?c=categoria&m=add" ?>" class="btn btn-success">Inserir categoria</a>
     <table class="table table-hover table-responsive">
         <thead>
             <tr>
